@@ -60,7 +60,7 @@
 			<key>comment</key>
 			<string>Call stacks.</string>
 			<key>match</key>
-			<string>(by|at) (0x[0-9a-zA-Z]+):\s(.+?) \(((in [0-9\.\-\\\/_a-zA-Z]+)|([0-9\.\-\\/_a-zA-Z]+)(:(\d+)|))\)</string>
+			<string>(by|at) (0x[0-9a-zA-Z]+):\s(.+?) \(((in [0-9\.\-\+\\\/_a-zA-Z]+)|([0-9\.\-\+\\/_a-zA-Z]+)(:(\d+)|))\)</string>
 			<key>name</key>
 			<string>text.valgrind.stack</string>
 		</dict>
